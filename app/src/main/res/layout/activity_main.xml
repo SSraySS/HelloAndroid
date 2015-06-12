@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@android:color/holo_blue_bright">
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView android:text="@string/front_title" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/button_space_marginTop"
+            android:layout_marginBottom="@dimen/button_space_marginBottom"
+            android:textSize="@dimen/abc_text_size_title_material" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_spotify"
+            android:id="@+id/button_spotify"
+            android:background="@android:color/holo_orange_dark"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/button_space_marginTop"
+            android:layout_marginBottom="@dimen/button_space_marginBottom"
+            android:width="@dimen/button_width_layout"
+            android:onClick="customizeToast" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_scores"
+            android:id="@+id/button_scores"
+            android:background="@android:color/holo_orange_dark"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/button_space_marginTop"
+            android:layout_marginBottom="@dimen/button_space_marginBottom"
+            android:width="@dimen/button_width_layout"
+            android:onClick="customizeToast" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_library"
+            android:id="@+id/button_library"
+            android:background="@android:color/holo_orange_dark"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/button_space_marginTop"
+            android:layout_marginBottom="@dimen/button_space_marginBottom"
+            android:width="@dimen/button_width_layout"
+            android:onClick="customizeToast" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_build"
+            android:id="@+id/button_build"
+            android:background="@android:color/holo_orange_dark"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/button_space_marginTop"
+            android:layout_marginBottom="@dimen/button_space_marginBottom"
+            android:width="@dimen/button_width_layout"
+            android:onClick="customizeToast" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_beacon"
+            android:id="@+id/button_beacon"
+            android:background="@android:color/holo_orange_dark"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/button_space_marginTop"
+            android:layout_marginBottom="@dimen/button_space_marginBottom"
+            android:width="@dimen/button_width_layout"
+            android:onClick="customizeToast" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_own"
+            android:id="@+id/button_own"
+            android:background="@android:color/holo_red_light"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/button_space_marginTop"
+            android:layout_marginBottom="@dimen/button_space_marginBottom"
+            android:width="@dimen/button_width_layout"
+            android:onClick="customizeToast" />
+    </LinearLayout>
+</ScrollView>
+
+</RelativeLayout>
